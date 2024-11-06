@@ -1,0 +1,8 @@
+POST http://localhost:8080/signup
+content-type: application/json
+
+{
+    "username": "testuser",
+    "password": "password",
+    "email": "test@wp.pl"
+}
